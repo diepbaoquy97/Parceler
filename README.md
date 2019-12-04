@@ -8,5 +8,4 @@ Parceler is a code generation library that generates the Android Parcelarable fa
 ----
 import android.os.Parcel;
 import android.os.Parcelable;
-
 ----
