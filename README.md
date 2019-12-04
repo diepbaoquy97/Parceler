@@ -8,4 +8,5 @@ Parceler is a code generation library that generates the Android Parcelarable fa
 import android.os.Parcel;
 import android.os.Parcelable;
 
+### The library
 The library of Parceler includes Parceler utility class to wrap and unwrap object. This could be very handy if we want to get the parceler object from intent.
