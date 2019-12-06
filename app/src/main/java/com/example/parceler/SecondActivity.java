@@ -23,5 +23,6 @@ public class SecondActivity extends AppCompatActivity {
 
         Log.e(TAG,"onCreate" +user.toString());
 
+
     }
 }
