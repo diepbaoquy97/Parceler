@@ -66,4 +66,17 @@ public class User{
     }
  } 
 ```
+The data type filed must not be private in order to create a new object.
 
+### The Wrap function that wrap object and put it to parceler
+```
+public void gotoSecondActivity(){
+        User user = new User("CENG",1);// This is to create a new object
+        Parcelable parcelable = Parcels.wrap(user); // Wrap the object
+
+        Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+        intent.putExtra("DATA_KEY",parcelable); Put the wrap in the parceler
+        startActivity(intent);
+    }
+```
+In this code, the wrap function wraped the object and put it in the parceler and ready to transfer it into a new activity.
