@@ -22,6 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         User user = Parcels.unwrap(parcelable);
 
         Log.e(TAG,"onCreate" +user.toString());
+
         
     }
 }
