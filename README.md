@@ -69,6 +69,7 @@ public class User{
 The data type filed must not be private in order to create a new object.
 
 ### The Wrap function that wrap object and put it to parceler
+This is in the main activity which is the sender
 ```
 public void gotoSecondActivity(){
         User user = new User("CENG",1);// This is to create a new object
@@ -80,3 +81,9 @@ public void gotoSecondActivity(){
     }
 ```
 In this code, the wrap function wraped the object and put it in the parceler and ready to transfer it into a new activity.
+### Unwrap function
+On the receiver side which is the new activity, we unwrap the object
+```
+ Parcelable parcelable = getIntent().getParcelableExtra("DATA_KEY");
+ User user = Parcels.unwrap(parcelable);
+```
