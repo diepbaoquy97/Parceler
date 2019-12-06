@@ -29,7 +29,8 @@ First, we have to create an object. I have created an user java class which cont
 
 
 [source,java]
-----
+
+
 @Parcel
 public class User {
     String Name;
@@ -39,7 +40,7 @@ public class User {
     }
 
     public User(String name, int age) {
-        Name = name;
+        this.Name = name;
         this.age = age;
     }
 
@@ -69,6 +70,6 @@ public class User {
                 '}';
     }
  } 
-----
+
 
 
