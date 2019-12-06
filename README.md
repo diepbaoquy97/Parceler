@@ -27,10 +27,9 @@ The methods getter and setter and non-empty constructor are using in order to se
 ### How to pass an object
 First, we have to create an object. I have created an user java class which contain the name and age. By android studio, It will create all the getter and setter method and constructor.
 
-
 @Parcel
-
 public class User {
+
     String Name;
     int age;
 
@@ -41,8 +40,6 @@ public class User {
         this.Name = name;
         this.age = age;
     }
-
-
 
     public String getName() {
         return Name;
