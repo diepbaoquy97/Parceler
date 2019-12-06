@@ -21,5 +21,5 @@ The library of Parceler includes Parceler utility class to wrap and unwrap objec
 
 ### Major method
 
-writeToParcel() and createFromParcel() are methods that read and write to parcel in same order. We don't have to implement the Parcel interface, it already had in its library
+writeToParcel() and createFromParcel() are methods that read and write to parcel in same order. We don't have to implement the Parcel interface, it already had in its library</br>
 The methods getter and setter and non-empty constructor are using in order to serialize
