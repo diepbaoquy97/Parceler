@@ -12,8 +12,8 @@ Android Parceler is 10 time faster than using Serializable, but it is required t
 #### Implementation needed in app gradle
 Add these two following in app gradle
 
-`androidTestImplementation 'com.android.support.test:runner:1.0.2'`</br>
-`androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'`
+`implementation 'org.parceler:parceler-api:1.1.12'`</br>
+ `annotationProcessor 'org.parceler:parceler:1.1.12'`
 
 
 ### The library
