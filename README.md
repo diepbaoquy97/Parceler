@@ -66,8 +66,49 @@ public class User{
     }
  } 
 ```
-The data type filed must not be private in order to create a new object.
 
+The data type filed must not be private in order to create a new object.
+The Parceler library works by using the @Parcel annotation to generate the wrapper classes. It works with many of the most standard Java types, including: </br>
+
+byte
+
+double
+
+float
+
+int
+
+long
+
+char
+
+boolean
+
+String
+
+IBinder
+
+Bundle
+
+SparseArray of any of the mapped types*
+
+SparseBooleanArray
+
+ObservableField
+
+List, ArrayList and LinkedList of any of the mapped types*
+
+Map, HashMap, LinkedHashMap, SortedMap, and TreeMap of any of the mapped types*
+
+Set, HashSet, SortedSet, TreeSet, LinkedHashSet of any of the mapped types*
+
+Parcelable
+
+Serializable
+
+Array of any of the mapped types
+
+Any other class annotated with @Parcel
 ### The Wrap function that wrap object and put it to parceler
 This is in the main activity which is the sender
 ```
