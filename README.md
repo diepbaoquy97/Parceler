@@ -5,8 +5,7 @@ Parceler is a code generation library that generates the Android Parcelarable fa
 
 #### To use parceler, we have to import
 
-import android.os.Parcel;
-
+import android.os.Parcel;</br>
 import android.os.Parcelable;
 
 ### The library
