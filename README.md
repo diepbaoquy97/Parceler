@@ -28,8 +28,8 @@ The methods getter and setter and non-empty constructor are using in order to se
 First, we have to create an object. I have created an user java class which contain the name and age. By android studio, It will create all the getter and setter method and constructor.
 
 [source,java]
+
 ----
-@Parcel
 @Parcel
 public class User {
     String Name;
@@ -68,5 +68,6 @@ public class User {
                 ", age=" + age +
                 '}';
     }
-}
+ }
+ 
 ----
