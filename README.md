@@ -130,5 +130,5 @@ On the receiver side which is the new activity, we unwrap the object
  User user = Parcels.unwrap(parcelable);
 ```
 ### Reference
-There are a lot of reference about Pareceler but I found that the github of user johncarl81 is the one which has a lot useful tutorial code about parceler. Below is the link of my reference.
+There are a lot of reference about Pareceler but I found that the github of user johncarl81 is the one which has a lot useful tutorial code about parceler. Below is the link of my reference.</br>
 [reference](https://github.com/johncarl81/parceler)
