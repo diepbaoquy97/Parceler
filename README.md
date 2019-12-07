@@ -4,7 +4,7 @@
 Parceler is a code generation library that generates the Android Parcelarable familar source code. Parceler is easy to transfer data from one activity to another activity such as transferring the text that user input in one activity to another activity. For example, when a user enters a keyword in search box, the keyword that user enters should be shown up with the search result in another activities. Therefore, the parceler uses for passing data object, data objects with simple code 
 #### Feature
 Android Parceler is 10 time faster than using Serializable, but it is required to create a lot of boiler plate code . 
-
+The boiler code such as getter and setter are easy to generate by the android studio
 #### To use parceler, we have to import
 
 `import android.os.Parcel;`</br>
@@ -126,3 +126,6 @@ On the receiver side which is the new activity, we unwrap the object
  Parcelable parcelable = getIntent().getParcelableExtra("DATA_KEY");
  User user = Parcels.unwrap(parcelable);
 ```
+### Reference
+There are a lot of reference about Pareceler but I found that the github of user johncarl81 is the one which has a lot useful tutorial code about parceler. Below is the link of my reference
+[reference](https://github.com/johncarl81/parceler)
