@@ -1,9 +1,18 @@
 # Parceler
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Feature](#feature)
+3. [The Library](#the-library)
+4. [Major methord](#major-method)
+5. [How to pass an object](#how-to-pass-an-object)
+6. [Reference](#Reference)
+ 
+
 ### The simple project of parceler
 So here is the link to my parceler project. I placed it under the Parceler branch.
 [Demo Project](https://github.com/diepbaoquy97/Parceler/tree/Parceler).
-### The introduction
+### Introduction
 Parceler is a code generation library that generates the Android Parcelarable familar source code. Parceler is easy to transfer data from one activity to another activity such as transferring the text that user input in one activity to another activity. For example, when a user enters a keyword in search box, the keyword that user enters should be shown up with the search result in another activities. Therefore, the parceler uses for passing data object, data objects with simple code 
 #### Feature
 Android Parceler is 10 time faster than using Serializable, but it is required to create a lot of boiler plate code . 
